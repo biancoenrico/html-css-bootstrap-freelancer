@@ -1,5 +1,11 @@
+/* HEADER */
+/* Nav */
 nav{
     background-color: #2c3e50;
+}
+.wrapper{
+    max-width: 70%;
+    margin: auto;
 }
 strong , .fa-bars{
     color: white;
@@ -21,4 +27,14 @@ strong , .fa-bars{
 }
 .menu{
     line-height: 70px;
+}
+/* xs nav responsive */
+@media all and (max-width: 767px) {
+    .start{
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .burger_menu{
+        text-align: right;
+    }
 }
