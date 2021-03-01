@@ -1,4 +1,13 @@
 /* HEADER */
+/* common */
+header p{
+    color: white;
+}
+.about strong , .about .fa-star,
+header strong , header .fa-bars{
+    color: white;
+    text-transform: uppercase;
+}
 /* Nav */
 nav{
     background-color: #2c3e50;
@@ -7,15 +16,12 @@ nav{
     max-width: 70%;
     margin: auto;
 }
-strong , .fa-bars{
-    color: white;
-    text-transform: uppercase;
-}
+
 .fa-bars{
     font-size: 30px;
     line-height: 70px;
 }
-.link_nav{
+ul{
     list-style-type: none;
 }
 .link_nav li{
@@ -38,3 +44,31 @@ strong , .fa-bars{
         text-align: right;
     }
 }
+/* jumbotron/ */
+h1{
+    font-size: 26px;
+}
+.jumbotron{
+    background-color: #1abc9c;
+}
+/* Portfolio Section */
+.portfolio{
+    padding-bottom: 45px;
+}
+.portfolio div div{
+    background-color: blue;
+    height: 200px;
+    border: 1px solid white;
+}
+.contact h2 , .contact p ,
+.portfolio h2 , .portfolio p{
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* About Section */
+.about{
+    background-color: #1abc9c;
+    padding-bottom: 50px;
+}
+/* Contact Section */
