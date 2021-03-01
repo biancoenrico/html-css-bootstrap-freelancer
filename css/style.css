@@ -72,3 +72,17 @@ h1{
     padding-bottom: 50px;
 }
 /* Contact Section */
+.contact{
+    padding-bottom: 50px;
+}
+/* FOOTER */
+.info{
+    background-color: #3a546d;
+    color: white;
+    padding-bottom: 50px;
+}
+.copyright{
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px 0;
+}
