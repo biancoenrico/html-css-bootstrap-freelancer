@@ -1,3 +1,6 @@
+body{
+    min-width: 320px;
+}
 /* HEADER */
 /* common */
 header p{
@@ -150,8 +153,8 @@ footer span{
     color: #1abc9c;
 }
 .circle{
-    height: 45px;
-    width: 45px;
+    max-height: 45px;
+    max-width: 45px;
     border: 1px solid white;
     border-radius: 50%;
     display: inline-block;
